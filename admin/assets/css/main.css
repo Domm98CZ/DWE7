@@ -1,0 +1,42 @@
+.thumbnail span.title {
+	position: absolute;
+	top: 10px;
+}
+
+span.title {
+    font-family: 'Open Sans',Arial,courier-new;
+    font-weight: 300;
+    font-size: 11px;
+    padding: 3px 5px;
+    color: #ffffff;
+    background: rgb(0, 0, 0); /* fallback color */
+   	background: rgba(0, 0, 0, 0.7);
+    margin-top: -3px;
+    border-radius: 2px;
+    margin-right: 1px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.thumbnail span.author {
+	position: absolute;
+	bottom: 30px;
+}
+
+span.author {
+    font-family: 'Open Sans',Arial,courier-new;
+    font-weight: 300;
+    font-size: 11px;
+    padding: 3px 5px;
+    color: #ffffff;
+    background: rgb(0, 0, 0); /* fallback color */
+   	background: rgba(0, 0, 0, 0.7);
+    margin-top: -3px;
+    border-radius: 2px;
+    margin-right: 1px;
+}
+
+.admin-message {
+    padding: 15px 15px 0 15px;
+}
